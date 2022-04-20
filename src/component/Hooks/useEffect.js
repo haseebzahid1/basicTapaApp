@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './style2.css';
 
-const useEffect = () => {
-    const initialDate = 10;
-    const [myNum, setMyNum] = useState(initialDate);
+const UseEffect = () => {
+ 
+    const [myNum, setMyNum] = useState(0);
+    useEffect(()=>{
+        document.title = `Chats(${myNum})`;
+    });
     return (
         <>
           <div className="center_div">
@@ -21,4 +24,4 @@ const useEffect = () => {
       );
 }
 
-export default useEffect;
+export default UseEffect;
