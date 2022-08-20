@@ -1,16 +1,16 @@
 import React from 'react';
-// import Resturant from './component/Basic/Resturant';
+import Resturant from './component/Basic/Resturant';
 // import UseState from './component/Hooks/useState';
 // import UseEffect from './component/Hooks/useEffect';
-import UseReducer from './component/Hooks/useReducer';
+// import UseReducer from './component/Hooks/useReducer';
 
 function App() {
   return (
     <div>
-      <UseReducer />
+      {/* <UseReducer /> */}
       {/* <UseEffect /> */}
       {/* <UseState /> */}
-      {/* <Resturant /> */}
+      <Resturant />
     </div>
   )
 }
